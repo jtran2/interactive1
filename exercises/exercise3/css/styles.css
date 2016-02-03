@@ -1,0 +1,91 @@
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+#artist {
+	width: 300px;
+	height: 300px;
+	color: red;
+	background-color: yellow;
+	margin: auto;
+	padding: 15px;
+}
+
+#painter {
+	color: orange;
+	font-size: 12px;
+}
+
+#sculptor {
+	color: white;
+	font-size: 7px;
+}
+
+body {
+	background-color: blue;
+}
+
+.sidebar {
+	background-color: purple;
+	height: 100px;
+	width: 150px;
+	color: yellow;
+	padding-left: 20px;
+	margin: auto;
+}
+
+#container {
+	margin: auto;
+	background-color: green;
+	width: 1000px;
+	height: 1000px;
+}
+
+#square {
+	float: left;
+	background-color: orange;
+	color: white;
+	width: 800px;
+	height: 100px;
+	margin: 20px;
+}
+
+#circle {
+	color: yellow;
+	background-color: black;
+	float: left;
+	width: 225px;
+	height: 150px;
+	margin: 20px;
+}
+
+#hexagon {
+	background-color: yellow;
+	color: blue;
+	width: 100px;
+	height: 50px;
+	margin: 20px;
+	float: left;
+}
+
+#triangle {
+	background-color: white;
+	color: black;
+	width: 200px;
+	height: 255px;
+	margin: 20px;
+	clear: left;
+}

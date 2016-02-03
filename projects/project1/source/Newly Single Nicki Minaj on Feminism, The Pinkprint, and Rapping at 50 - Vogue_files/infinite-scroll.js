@@ -1,0 +1,1 @@
+require(["header","article-manager","listicle-manager"]);
