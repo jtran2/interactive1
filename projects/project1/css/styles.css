@@ -5,6 +5,11 @@ body {
 
 }
 
+h1 {
+	font-family: sans-serif;
+	font-size: 20pt;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 11pt
