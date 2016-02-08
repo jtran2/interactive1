@@ -1,8 +1,6 @@
 body {
-	background: #ffeff8;
-	background: linear-gradient(#ffeff8, #ffd3eb);
-	background: -webkit-linear-gradient(#ffeff8, #ffd3eb);
-	background: -moz-linear-gradient(#ffeff8, #ffd3eb);
+	background-image: url(../images/grey.png);
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur918.cur), default;
 }
 
 ::-moz-selection {
@@ -39,10 +37,12 @@ a:hover {
 
 #whole {
 	background-color: #ffeff8;
+	background: linear-gradient(#ffeff8, #ffd3eb);
 	margin-left: 150px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	padding-right: 100px;
-	width: 800px;
+	padding-top: 40px;
+	width: 820px;
 }
 
 #images {
