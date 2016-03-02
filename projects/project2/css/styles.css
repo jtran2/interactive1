@@ -1,0 +1,423 @@
+body {
+	background-image: url(../images/britex06.png);
+}
+
+#container {
+	width: 1400px;
+	height: 5000px;
+	padding: 0px;
+}
+
+#britex {
+	width: 1400px;
+	height: 1000px;
+	background-image: url(../images/britex03.png);
+}
+
+#bw1 {
+	width: 300px;
+	height: 500px;
+	float: left;
+}
+
+#bw2 {
+	width: 400px;
+	height: 800px;
+	float: left;
+}
+
+#tri {
+	width: 400px;
+	height: 500px;
+	float: left;
+}
+
+#tri2 {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 250px;
+	left: 780px;
+}
+
+#dia {
+	width: 300px;
+	position: absolute;
+	top: 300px;
+	left: 20px;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 400px solid red;
+	opacity: 0.5;
+	position: absolute;
+	top: 90px;
+	left: 520px;
+}
+
+#triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid #bd4c00;
+	position: absolute;
+	top: 80px;
+	left: 280px;
+	opacity: 0.8;
+}
+
+#triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 1500px solid #ae4569;
+	position: absolute;
+	top: 500px;
+	left: 600px;
+	opacity: 0.7;
+}
+
+#britex1 {
+	width: 500px;
+	height: 300px;
+	float: left;
+	font-size: 40pt;
+	color: #d86c31;
+	line-height: 6pt;
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+
+#britex2 {
+	width: 300px;
+	height: 700px;
+	font-size: 30pt;
+	color: #f50101;
+	line-height: 2pt;
+	position: absolute;
+	top: 450px;
+	left: 1000px;
+}
+
+#britex3 {
+	width: 300px;
+	height: 400px;
+	float: left;
+	font-size: 23pt;
+	color: #f27235;
+	line-height: 20pt;
+	position: absolute;
+	top: 500px;
+	left: 800px;
+}
+
+#britex4 {
+	width: 700px;
+	height: 600px;
+	clear: left;
+	font-size: 103pt;
+	color: #f27236;
+	line-height: 10pt;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+#britexgif {
+	position: absolute;
+	top: 700px;
+	left: 800px;
+	opacity: 0.7;
+}
+
+#britexgif2 {
+	position: absolute;
+	top: 800px;
+	left: 920px;
+}
+
+#orangepattern {
+	position: relative;
+	opacity: .6;
+}
+
+#daiso {
+	background-image: url(../images/britex05.png);
+	width: 700px;
+	height: 1000px;
+	background-color: #ab4437;
+	float: left;
+}
+
+#daisogif {
+	width: 700px;
+	height: 900px;
+	position: absolute;
+	top: 1110px;
+	left: 36px;
+}
+
+#daisotext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 90pt;
+	color: #d86c31;
+	line-height: 1pt;
+	position: absolute;
+	top: 1200px;
+	left: 40px;
+}
+
+#daisotext2 {
+	width: 50px;
+	height: 300px;
+	float: left;
+	font-size: 40pt;
+	color: #d11092;
+	line-height: 3pt;
+	position: absolute;
+	top: 1200px;
+	left: 100px;
+}
+
+#daisotext3 {
+	width: 400px;
+	height: 300px;
+	float: left;
+	font-size: 70pt;
+	line-height: 1pt;
+	color: #d54924;
+	position: absolute;
+	top: 1300px;
+	left: 250px;
+}
+
+#michaels {
+	width: 700px;
+	height: 1000px;
+	background-color: #ac9059;
+	background-image: url(../images/costco1.png);
+	float: left;
+}
+
+#michaelstext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 90pt;
+	color: #d86c31;
+	line-height: 1pt;
+	position: absolute;
+	top: 1200px;
+	left: 700px;
+}
+
+#michaelstext2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 50pt;
+	color: #e74831;
+	line-height: 1pt;
+	position: absolute;
+	top: 1300px;
+	left: 900px;
+}
+
+#michaelstext3 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 20pt;
+	color: #ef9457;
+	line-height: 1pt;
+	position: absolute;
+	top: 1340px;
+	left: 750px;
+}
+
+#costcotext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 90pt;
+	color: #fd8831;
+	line-height: 1pt;
+	position: absolute;
+	top: 1100px;
+	left: 300px;
+}
+
+#costcotext2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 40pt;
+	color: #c51a1a;
+	line-height: 10pt;
+	position: absolute;
+	top: 1000px;
+	left: 900px;
+}
+
+#costcotext3 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 90pt;
+	color: #d88831;
+	line-height: 1pt;
+	position: absolute;
+	top: 1200px;
+	left: 500px;
+}
+
+#misha {
+	width: 1400px;
+	height: 1000px;
+	background-color: #ad2449;
+	background-image: url(../images/misha_bg.gif);
+	clear: left;
+}
+
+#mishatransparent {
+	width: 700px;
+	opacity: .7;
+	position: absolute;
+	top: 2100px;
+	left: 240px;
+}
+
+#mishatext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 90pt;
+	color: #d86c31;
+	line-height: 1pt;
+	position: absolute;
+	top: 2200px;
+	left: 400px;
+}
+
+#mishatext2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 60pt;
+	font-style: italic;
+	color: #d8df31;
+	line-height: 1pt;
+	position: absolute;
+	top: 2100px;
+	left: 600px;
+}
+
+#mishatext3 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 40pt;
+	color: #c51a1a;
+	line-height: 1pt;
+	position: absolute;
+	top: 2500px;
+	left: 750px;
+}
+
+#eastbay {
+	width: 1400px;
+	height: 1000px;
+	background-color: #ae9012;
+	clear: left;
+}
+
+#easttext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 70pt;
+	font-style: italic;
+	color: #d8df31;
+	line-height: 1pt;
+	position: absolute;
+	top: 3100px;
+	left: 200px;
+}
+
+#easttext2 {
+	width: 800px;
+	height: 300px;
+	float: left;
+	font-size: 40pt;
+	color: #dedef1;
+	line-height: 7pt;
+	position: absolute;
+	top: 3150px;
+	left: 300px;
+}
+
+#easttext3 {
+	width: 700px;
+	height: 300px;
+	float: left;
+	font-size: 30pt;
+	color: #eedef1;
+	line-height: 7pt;
+	position: absolute;
+	top: 3550px;
+	left: 400px;
+}
+
+#row5 {
+	width: 1400px;
+	height: 1000px;
+}
+
+#internet {
+	width: 700px;
+	height: 1000px;
+	background-color: #af5689;
+	float: left;
+}
+
+#internettext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 20pt;
+	font-style: italic;
+	color: #d8df31;
+	line-height: 1pt;
+	position: absolute;
+	top: 4100px;
+	left: 100px;
+}
+
+#home {
+	width: 700px;
+	height: 1000px;
+	background-color: #aa1223;
+	float: left;
+}
+
+#hometext {
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-size: 70pt;
+	font-style: italic;
+	color: #d8df31;
+	line-height: 1pt;
+	position: absolute;
+	top: 4200px;
+	left: 700px;
+}

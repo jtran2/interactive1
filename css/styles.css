@@ -1,0 +1,45 @@
+body {
+	background: #fff;
+	background-image: url(../images/symphony.png);
+	text-align: center;
+}
+
+#whole {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Economica', sans-serif;
+	font-size: 30pt;
+}
+
+#content {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 11pt;
+}
+
+a:link {
+	color: #ff91bd;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff91bd;
+}
+
+a:hover {
+	color: #e7bacc;
+}
+

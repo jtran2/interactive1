@@ -1,0 +1,59 @@
+#square {
+	width: 50px;
+	height: 50px;
+	border-radius:  10px;
+	background-color: orange;
+}
+
+#rectangle {
+	width: 50px;
+	height: 100px;
+	border-radius:  10px 4px 3px 10px;
+	background-color: blue;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 5opx solid transparent;
+	border-bottom: 100px solid red;
+}
+
+#trapezoid {
+	border-bottom: 10px solid white;
+	border-left: 50px solid transparent;
+	border-right: 5opx solid transparent;
+	background-color: purple;
+	height: 0;
+	width: 100px;
+}
+
+#circle {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background-color: red;
+	float: left;
+}
+
+#circle2 {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+	z-index: 5;
+}
+
+#circle3 {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background-color: yellow;
+	float: left;
+	z-index: 15;
+	position: absolute;
+	top: 30px;
+	left: 25px;
+}
