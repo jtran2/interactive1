@@ -162,6 +162,15 @@ body {
 	position: absolute;
 	top: 1110px;
 	left: 36px;
+	opacity: .7;
+}
+
+#daisogif {
+	width: 700px;
+	height: 900px;
+	position: absolute;
+	top: 1210px;
+	left: 306px;
 }
 
 #daisotext {
@@ -174,6 +183,7 @@ body {
 	position: absolute;
 	top: 1200px;
 	left: 40px;
+	opacity: .7;
 }
 
 #daisotext2 {
@@ -218,6 +228,7 @@ body {
 	position: absolute;
 	top: 1200px;
 	left: 700px;
+	opacity: .9
 }
 
 #michaelstext2 {
@@ -254,6 +265,7 @@ body {
 	position: absolute;
 	top: 1100px;
 	left: 300px;
+	opacity: .5;
 }
 
 #costcotext2 {
@@ -306,6 +318,7 @@ body {
 	position: absolute;
 	top: 2200px;
 	left: 400px;
+	opacity: .7;
 }
 
 #mishatext2 {
@@ -337,7 +350,14 @@ body {
 	width: 1400px;
 	height: 1000px;
 	background-color: #ae9012;
+	background-image: url(../images/east01.png);
 	clear: left;
+}
+
+#east3 {
+	position: absolute;
+	top: 3000px;
+	left: 400px;
 }
 
 #easttext {
@@ -351,6 +371,7 @@ body {
 	position: absolute;
 	top: 3100px;
 	left: 200px;
+	opacity: .5;
 }
 
 #easttext2 {
