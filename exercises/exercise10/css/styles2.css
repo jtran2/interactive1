@@ -1,0 +1,51 @@
+body {
+  background: #27c8f9;
+}
+
+#container {
+  margin: auto;
+  width: 2000px;
+}
+
+.button {
+  background: #a2f22f;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 500px;
+  width: 1350px;
+  line-height: 95px;
+  text-align: center;
+  margin: 20px;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-delay: .2s;
+  transition-timing-function: linear;
+ 
+}
+
+.button:hover {
+  background: #fff;
+  border-radius: 20px;
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: #ffcc99;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+}
+
+.circle:hover {
+  background: #eb03b8;
+  border-radius: 10px;
+}
+
+#spacer {
+  height: 200px;
+  
+}

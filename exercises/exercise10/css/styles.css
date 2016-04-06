@@ -1,0 +1,57 @@
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   animation-iteration-count: infinite;
+   margin-left: 200px;
+   margin-top: 200px;
+   background-color: #fac798;
+   height: 100px;
+   width: 300px;
+   font-size: 80pt;
+   font-family: sans-serif;
+}
+
+.colorbox2 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 1;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   animation-iteration-count: infinite;
+   margin: auto;
+   background-color: #36d5d0;
+   height: 300px;
+   width: 300px;
+   opacity: .4;
+   font-size: 60pt;
+   font-family: sans-serif;
+}
+
+.colorbox3 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1.2s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 0s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 1;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   animation-iteration-count: infinite;
+   margin: auto;
+   background-color: #36d5d0;
+   height: 300px;
+   width: 300px;
+   opacity: .7;
+   font-size: 1000pt;
+   font-family: sans-serif;
+}

@@ -36,29 +36,33 @@ a:hover {
 }
 
 #whole {
+	width: 820px;
+	margin: auto;
+}
+
+#text {
 	background-color: #ffeff8;
 	background: linear-gradient(#ffeff8, #ffd3eb);
-	margin-left: 150px;
-	margin-bottom: 30px;
+	margin: auto;
 	padding-bottom: 30px;
-	padding-right: 100px;
 	padding-top: 40px;
 	width: 820px;
 }
 
 #images {
-	margin-left: 150px;
+	margin: auto;
 	margin-top: 15px;
+	margin-bottom: 5px;
 }
 
 #headline {
 	width: 600px;
-	margin-left: 150px;
+	margin: auto;
 }
 
 #main {
 	width: 600px;
-	margin-left: 150px;
+	margin: auto;
 	margin-bottom: 50px;
 	line-height: 20pt;
 }

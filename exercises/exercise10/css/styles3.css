@@ -1,0 +1,129 @@
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 404px;
+    top: 200px;
+  }
+  100% {
+    left: 888px;
+    top: 0;
+  }
+}
+
+.background {
+  background: #33348e;
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  min-width: 1000px;
+}
+
+.background:hover .dot{
+  animation: slide 2s linear;
+}
+
+.dot {
+  background: #e0b01c;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.background2 {
+  background: #0d8def;
+  border-radius: 30px;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+}
+
+.background2:hover .dot2 {
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot2 {
+  background: #000000;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+/*
+.colorbox {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+
+.colorbox {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #f4d112;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #0fdf45;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #28b4e8;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
