@@ -1,13 +1,13 @@
 @keyframes color_change {
 	from { background-color: #d6d6d6; }
-	to { background-color: #1c1c1c; }
+	to { background-color: #0d0d0d; }
 }
 
 body {
     background-color: #d6d6d6;
     animation-name: color_change;
 	animation-duration: 2s;
-	animation-delay: 1s;
+	animation-delay: .06s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	color: black;
@@ -40,8 +40,8 @@ a:hover {
 
 #container {
 	background-color: none;
-	width: 500px;
-	height: 250px;
+	width: 700px;
+	height: 450px;
 	position: absolute;
     margin: auto;
     top: 0;
@@ -53,14 +53,160 @@ a:hover {
 	font-size: 20px;
 }
 
-#box1 {
-	letter-spacing: 0px;
+#warped {
+	position: absolute; 
+	display: block; 
+	width:700px; 
+	height:450px;
 }
 
-#box2 {
-	letter-spacing: 10px;
+#warped>span[class^=w]:nth-of-type(n+0){
+	display:block; 
+	position:absolute;
+	-moz-transform-origin:50% 100%; 
+	-webkit-transform-origin:50% 100%; 
+	-o-transform-origin:50% 100%; 
+	-ms-transform-origin:50% 100%; 
+	transform-origin:50% 100%; 
 }
 
-#box3 {
-	letter-spacing: 0px;
+#warped span{
+	font-family:'Buenard';
+	font-size:20px;
+	font-weight:regular;
+	font-style:normal;
+	line-height:0.65; 
+	white-space:pre; 
+	overflow:visible; 
+	padding:0px;
 }
+
+                     #warped .w0 {
+                     width: 10px; height: 13px; left: 34.12px; top: 36.17px;}
+
+                     #warped .w1 {
+                     width: 6px; height: 13px; left: 57.73px; top: 67.19px;}
+
+                     #warped .w2 {
+                     width: 10px; height: 13px; left: 77.63px; top: 99.35px;}
+
+                     #warped .w3 {
+                     width: 9px; height: 13px; left: 100.15px; top: 131.85px;}
+
+                     #warped .w4 {
+                     width: 9px; height: 13px; left: 121.67px; top: 163.69px;}
+
+                     #warped .w5 {
+                     width: 10px; height: 13px; left: 143.78px; top: 197.2px;}
+
+                     #warped .w6 {
+                     width: 10px; height: 13px; left: 166.06px; top: 230.24px;}
+
+                     #warped .w7 {
+                     width: 6px; height: 13px; left: 189.36px; top: 261.84px;}
+
+                     #warped .w8 {
+                     width: 9px; height: 13px; left: 208.31px; top: 292.17px;}
+
+                     #warped .w9 {
+                     width: 10px; height: 13px; left: 230.42px; top: 325.65px;}
+
+                     #warped .w10 {
+                     width: 10px; height: 13px; left: 252.37px; top: 358.09px;}
+
+                     #warped .w11 {
+                     width: 9px; height: 13px; left: 275.2px; top: 390.8px;}
+
+
+
+#warped2 {
+	position: absolute; 
+	display: block; 
+	width:700px; 
+	height:450px;
+}
+
+#warped2>span[class^=w]:nth-of-type(n+0){
+	display:block; 
+	position:absolute;
+	-moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
+                     100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
+
+#warped2 span{
+	font-family:'Buenard';font-size:20px;font-weight:regular;font-style:normal;
+                     line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+                     #warped2 .w0 {
+                     width: 10px; height: 13px; left: 275.12px; top: 96.17px;}
+
+                     #warped2 .w1 {
+                     width: 10px; height: 13px; left: 297.7px; top: 129.31px;}
+
+                     #warped2 .w2 {
+                     width: 6px; height: 13px; left: 320.7px; top: 161.12px;}
+
+                     #warped2 .w3 {
+                     width: 10px; height: 13px; left: 339.58px; top: 192.97px;}
+
+                     #warped2 .w4 {
+                     width: 9px; height: 13px; left: 361.41px; top: 225.66px;}
+
+                     #warped2 .w5 {
+                     width: 10px; height: 13px; left: 382.77px; top: 259.23px;}
+
+                     #warped2 .w6 {
+                     width: 10px; height: 13px; left: 404.77px; top: 293.04px;}
+
+                     #warped2 .w7 {
+                     width: 10px; height: 13px; left: 426.33px; top: 326.18px;}
+
+                     #warped2 .w8 {
+                     width: 9px; height: 13px; left: 448.46px; top: 359.39px;}
+
+                     #warped2 .w9 {
+                     width: 9px; height: 13px; left: 469.7px; top: 391.71px;}
+
+
+#warped3 {
+	position: relative; 
+	display: block; 
+	width:700px; 
+	height:450px;
+}
+
+#warped3>span[class^=w]:nth-of-type(n+0){
+	display:block; 
+	position:absolute;
+	-moz-transform-origin:50% 100%; 
+	-webkit-transform-origin:50% 100%; 
+	-o-transform-origin:50% 100%; 
+	-ms-transform-origin:50% 100%; 
+	transform-origin:50% 100%; 
+}
+
+                     #warped3 span{font-family:'Buenard';font-size:20px;font-weight:regular;font-style:normal;
+                     line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+                     #warped3 .w0 {
+                     width: 10px; height: 13px; left: 487.98px; top: 215.87px;}
+
+                     #warped3 .w1 {
+                     width: 6px; height: 13px; left: 499.39px; top: 249.12px;}
+
+                     #warped3 .w2 {
+                     width: 9px; height: 13px; left: 506.77px; top: 285.85px;}
+
+                     #warped3 .w3 {
+                     width: 9px; height: 13px; left: 515.99px; top: 323.55px;}
+
+                     #warped3 .w4 {
+                     width: 10px; height: 13px; left: 530.19px; top: 356.5px;}
+
+                     #warped3 .w5 {
+                     width: 10px; height: 13px; left: 568.23px; top: 369.47px;}
+
+                     #warped3 .w6 {
+                     width: 10px; height: 13px; left: 605.83px; top: 383.03px;}
+
+                     #warped3 .w7 {
+                     width: 9px; height: 13px; left: 643.27px; top: 397.07px;}

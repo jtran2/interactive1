@@ -30,8 +30,8 @@ a:hover {
 
 #container {
 	background-color: none;
-	width: 500px;
-	height: 100px;
+	width: 800px;
+	height: 600px;
 	position: absolute;
     margin: auto;
     top: 0;
@@ -40,6 +40,58 @@ a:hover {
     left: 0;
 	padding: 10px;
 	text-align: center;
+}
+
+#box1 {
+	background-color: none;
+	width: 800px;
+	height: 70px;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 	font-size: 20px;
 	letter-spacing: 30px;
+}
+
+#boy1 {
+	background-color: none;
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin-top: 15px;
+	font-size: 70px;
+	letter-spacing: 20px;
+}
+
+#boy2 {
+	background-color: none;
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin-top: 15px;
+	font-size: 70px;
+	letter-spacing: 20px;
+}
+
+#boy3 {
+	background-color: none;
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin-top: 15px;
+	font-size: 70px;
+	letter-spacing: 20px;
+}
+
+#boy4 {
+	background-color: none;
+	width: 200px;
+	height: 600px;
+	float: left;
+	margin-top: 15px;
+	font-size: 70px;
+	letter-spacing: 20px;
 }
