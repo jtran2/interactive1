@@ -28,10 +28,21 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+   background-color: none;
+   width: 50px;
+   height: 50px;
+   margin: auto;
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   text-align: center;
+}
+
 #container {
 	background-color: none;
-	width: 500px;
-	height: 100px;
+	width: 700px;
+	height: 80px;
 	position: absolute;
     margin: auto;
     top: 0;
@@ -40,17 +51,7 @@ a:hover {
     left: 0;
 	padding: 10px;
 	text-align: center;
-	font-size: 20px;
-	letter-spacing: 30px;
-}
-
-#nextpage {
-	background-color: none;
-	width: 50px;
-	height: 50px;
-	margin: auto;
-	position: fixed;
-	right: 10px;
-	bottom: 10px;
-	text-align: center;
+	font-size: 25px;
+	letter-spacing: 50px;
+	text-decoration: line-through;
 }

@@ -1,3 +1,8 @@
+@keyframes color_change {
+	from { color: white; }
+	to { color: black; }
+}
+
 body {
 	background-color: white;
 	color: black;
@@ -28,6 +33,17 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+   background-color: none;
+   width: 50px;
+   height: 50px;
+   margin: auto;
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   text-align: center;
+}
+
 #container {
 	background-color: none;
 	width: 1200px;
@@ -40,7 +56,49 @@ a:hover {
     left: 0;
 	padding: 10px;
 	text-align: center;
+}
+
+.box1 {
 	font-size: 40px;
-	letter-spacing: 30px;
 	line-height: 22px;
+	letter-spacing: 30px;
+}
+
+#box2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 75pt;
+	letter-spacing: 50px;
+	animation-name: color_change;
+	animation-duration: 1.5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#box3 {
+	position: absolute;
+	top: 80px;
+	left: 300px;
+	font-size: 75pt;
+	letter-spacing: 50px;
+	animation-name: color_change;
+	animation-duration:1.5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#box4 {
+	position: absolute;
+	top: 0px;
+	left: 250px;
+	font-size: 190px;
+	letter-spacing: 190px;
+	animation-name: color_change;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }

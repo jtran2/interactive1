@@ -28,9 +28,20 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+	background-color: none;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
 #container {
 	background-color: none;
-	width: 400px;
+	width: 700px;
 	height: 550px;
 	position: absolute;
     margin: auto;
@@ -46,8 +57,9 @@ a:hover {
 	background-color: none;
 	width: 300px;
 	height: 300px;
-	clear: left;
-	margin-left: 60px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 40px;
 	font-size: 18px;
 	letter-spacing: 30px;
 	line-height: 29px;
@@ -72,8 +84,9 @@ a:hover {
 	background-color: none;
 	width: 300px;
 	height: 250px;
-	clear: left;
-	margin-right: 10px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
 	font-size: 10px;
 	letter-spacing: 30px;
 	line-height: 38px;
@@ -82,4 +95,15 @@ a:hover {
 #box4 {
 	width: 100px;
 	float: left;
+}
+
+#container4 {
+	background-color: none;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 430px;
+	font-size: 40px;
+	letter-spacing: 90px;
 }

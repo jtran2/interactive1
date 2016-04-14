@@ -28,6 +28,17 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+	background-color: none;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
 #container {
 	background-color: none;
 	width: 600px;
@@ -74,16 +85,15 @@ a:hover {
 
 #box3 {
 	width: 400px;
-	height: 500px;
+	height: 300px;
 	background-color: none;
-	text-align: right;
+	text-align: left;
 	position: absolute;
-	margin: auto;
 	top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    font-size: 200px;
+    font-size: 180px;
     letter-spacing: 0px;
-    line-height: 20px;
+    opacity: .7;
 }
