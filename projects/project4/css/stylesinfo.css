@@ -1,50 +1,51 @@
 body {
-	background-color: white;
-	color: black;
-	font-family: 'Buenard', serif;
+	background-color: black;
+	color: white;
 }
 
 ::-moz-selection {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
 }
 
 ::selection {
-    color: white; 
-    background: black;
+    color: black; 
+    background: white;
 }
 
 a:link {
-	color: black;
+	color: gray;
 	text-decoration: none;
 }
 
 a:visited {
-	color: black;
+	color: gray;
 }
 
 a:hover {
-	color: gray;
+	color: white;
 	text-decoration: line-through;
 }
 
 #container {
 	background-color: none;
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 130px;
 	position: absolute;
     margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
-	font-size: 20px;
-	letter-spacing: 10px;
+	font-family: 'Buenard', serif;
+	font-size: 18px;
+	letter-spacing: .3px;
+
 }
 
-#nextpage {
+#index {
    background-color: none;
    width: 50px;
    height: 50px;

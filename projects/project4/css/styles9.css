@@ -159,7 +159,7 @@ a:hover {
 	letter-spacing: 30px;
 	line-height: 0px;
 	animation-name: color_change;
-	animation-duration: .5s;
+	animation-duration: 1.9s;
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
