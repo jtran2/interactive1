@@ -1,3 +1,8 @@
+@keyframes color_change {
+    from { opacity: .7; }
+    to { opacity: 0; }
+}
+
 body {
 	background-color: black;
 	color: white;
@@ -47,10 +52,15 @@ a:hover {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 370px;
-    font-size: 170px;
+    left: 350px;
+    font-size: 180px;
     text-align: center;
     opacity: .7;
+    animation-name: color_change;
+    animation-duration: .6s;
+    animation-delay: .6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #container {
