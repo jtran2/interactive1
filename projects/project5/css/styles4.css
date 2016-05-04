@@ -1,8 +1,11 @@
 body {
 	padding:30px;
-	background-color: #87ecf0;
-	color: black;
+	background-color: #ca2723;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 25px;
 }
+
 #container {
 	width: 7000px;
 }
@@ -29,7 +32,7 @@ body {
 }
 
 .zombie {
-	width: 300px;
+	width: 500px;
 	height: 500px;
 	cursor:move;
 	float:left;
@@ -40,11 +43,11 @@ body {
 }
 
 .leprechaun {
-	width: 100px;
-	height: 100px;
+	width: 700px;
+	height: 700px;
 	cursor:move;
 	float:left;
-	margin-top: 150px;
+	margin-top: 220px;
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -54,7 +57,7 @@ body {
 	width: 480px;
 	height: 480px;
 	float: left;
-	margin-top: 200px;
+	margin-top: 300px;
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;

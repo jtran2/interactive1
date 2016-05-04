@@ -1,7 +1,9 @@
 body {
 	padding:30px;
 	background-color: #87ecf0;
-	color: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 25px;
 }
 
 #container {
@@ -47,7 +49,7 @@ body {
 	padding-right: 10px;
 }
 
-.lonelycop {
+.thornberry {
 	width: 480px;
 	height: 480px;
 	float: left;
@@ -57,11 +59,11 @@ body {
 	padding-right: 10px;
 }
 
-.fuckboy {
-	width: 480px;
-	height: 480px;
+.grinch {
+	width: 1560px;
+	height: 800px;
 	float: left;
-	margin-top: 330px;
+	margin-top: 350px;
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
