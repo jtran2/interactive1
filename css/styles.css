@@ -21,6 +21,10 @@ h1 {
 	line-height: 5px;
 }
 
+h2 {
+	font-family: 'Economica', sans-serif;
+	font-size: 20pt;
+}
 #content {
 	width: 280px;
 	margin: auto;

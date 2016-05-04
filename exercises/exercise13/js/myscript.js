@@ -15,4 +15,4 @@ $(function() {
         $(function(){
           $.okvideo({ source: 'https://www.youtube.com/watch?v=OCowsu0mQto',
                     volume: 100})
-        });
+});
