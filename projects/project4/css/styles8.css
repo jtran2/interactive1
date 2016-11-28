@@ -9,7 +9,11 @@ body {
 	font-family: 'Buenard', serif;
 	animation-name: color_change;
 	animation-duration: 2s;
+<<<<<<< HEAD
 	animation-delay: 1s;
+=======
+	animation-delay: .4s;
+>>>>>>> origin/gh-pages
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -38,19 +42,42 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+   background-color: none;
+   width: 50px;
+   height: 50px;
+   margin: auto;
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   text-align: center;
+}
+
 #container {
 	background-color: none;
 	width: 700px;
 	height: 500px;
 	position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
 	padding: 10px;
 	text-align: center;
 	letter-spacing: 30px;
+}
+
+#mid {
+   background-color: none;
+   width: 50px;
+   height: 30px;
+   font-size: 140px;
+   position: absolute;
+   top: 20px;
+   right: 0;
+   bottom: 0;
+   left: 320px;
 }
 
 #middle {
@@ -63,7 +90,7 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    font-size: 55px;
+    font-size: 65px;
     line-height: 0px;
     text-align: center;
     letter-spacing: 0px;
@@ -88,7 +115,7 @@ a:hover {
 
 #warped span{
 	font-family:'Buenard';
-	font-size:20px;
+	font-size:30px;
 	font-weight:regular;
 	font-style:normal;
 	line-height:0.65; 
@@ -351,7 +378,7 @@ a:hover {
 
 #warped2 span{
 	font-family:'Buenard';
-	font-size:35px;
+	font-size:50px;
 	font-weight:regular;
 	font-style:normal;
 	line-height:0.65; 

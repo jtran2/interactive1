@@ -1,28 +1,40 @@
 body {
 	background: #fff;
 	background-image: url(../images/symphony.png);
-	text-align: center;
 }
 
 #whole {
 	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	padding: 10px;
+}
+
+#header {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 h1 {
 	font-family: 'Economica', sans-serif;
 	font-size: 40pt;
+	line-height: 5px;
 }
 
+h2 {
+	font-family: 'Economica', sans-serif;
+	font-size: 20pt;
+}
 #content {
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 600px;
+	margin: auto;
 	background-color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	text-align: left;
+	line-height: 25px;
 }
 
 p {
@@ -42,4 +54,3 @@ a:visited {
 a:hover {
 	color: #e7bacc;
 }
-

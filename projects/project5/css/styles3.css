@@ -1,0 +1,104 @@
+body {
+	padding:30px;
+	background-color: #e691c8;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 25px;
+}
+
+#container {
+	width: 7000px;
+}
+
+.dog {
+	width: 300px;
+	height: 500px;
+	cursor:move;
+	float:left;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.fish {
+	width: 300px;
+	height: 500px;
+	cursor:move;
+	float:left;
+	margin-top: 70px;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bunny {
+	width: 300px;
+	height: 500px;
+	cursor:move;
+	float:left;
+	margin-top: 150px;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.carrot {
+	width: 100px;
+	height: 100px;
+	cursor:move;
+	float:left;
+	margin-top: 150px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inflight {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 200px;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.lonelycop {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 270px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.fuckboy {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 330px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.old {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 400px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.magician {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 470px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}

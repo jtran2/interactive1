@@ -1,0 +1,38 @@
+body {
+  background-color: #ff0074;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+#container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+  line-height: 30px;
+}
+
+::-moz-selection {
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white; 
+    background: black;
+}
+
+a:link {
+  color: purple;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: white;
+}

@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+::-moz-selection {
+    color: black;
+    background: white;
+}
+
+::selection {
+    color: black; 
+    background: white;
+}
+
+a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: white;
+	text-decoration: line-through;
+}
+
+#container {
+	background-color: none;
+	width: 400px;
+	height: 130px;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Buenard', serif;
+	font-size: 18px;
+	letter-spacing: .3px;
+
+}
+
+#index {
+   background-color: none;
+   width: 50px;
+   height: 50px;
+   margin: auto;
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   text-align: center;
+}

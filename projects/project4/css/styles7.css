@@ -28,6 +28,17 @@ a:hover {
 	text-decoration: line-through;
 }
 
+#nextpage {
+	background-color: none;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
 #container {
 	background-color: none;
 	width: 600px;
@@ -73,7 +84,11 @@ a:hover {
 }
 
 #box3 {
+<<<<<<< HEAD
 	width: 400px;
+=======
+	width: 500px;
+>>>>>>> origin/gh-pages
 	height: 300px;
 	background-color: none;
 	text-align: left;
@@ -82,7 +97,17 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
+<<<<<<< HEAD
     font-size: 180px;
     letter-spacing: 0px;
     opacity: .7;
+=======
+    font-size: 170px;
+    letter-spacing: 10px;
+    opacity: .2;
+>>>>>>> origin/gh-pages
+}
+
+span {
+	opacity: .5;
 }

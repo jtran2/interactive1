@@ -1,0 +1,70 @@
+body {
+	padding:30px;
+	background-color: #87ecf0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 25px;
+}
+
+#container {
+	width: 7000px;
+}
+
+.kirby {
+	width: 480px;
+	height: 480px;
+	float:left;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.disney {
+	width: 480px;
+	height: 480px;
+	float:left;
+	margin-top: 70px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.darth {
+	width: 480px;
+	height: 480px;
+	float:left;
+	margin-top: 150px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.batman {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.thornberry {
+	width: 480px;
+	height: 480px;
+	float: left;
+	margin-top: 270px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.grinch {
+	width: 1560px;
+	height: 800px;
+	float: left;
+	margin-top: 350px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
