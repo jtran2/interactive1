@@ -1,11 +1,8 @@
 @keyframes color_change {
-<<<<<<< HEAD
 	from { color: white; }
 	to { color: black; }
-=======
 	from { color: black; }
 	to { color: white; }
->>>>>>> origin/gh-pages
 }
 
 body {
@@ -63,32 +60,29 @@ a:hover {
 	text-align: center;
 }
 
-<<<<<<< HEAD
+
 .box1 {
 	font-size: 40px;
 	line-height: 22px;
 	letter-spacing: 30px;
-=======
+}
+
 #box1 {
 	font-size: 40px;
 	line-height: 22px;
 	letter-spacing: 30px;
 	font-weight: 700;
->>>>>>> origin/gh-pages
 }
 
 #box2 {
 	position: absolute;
 	top: 0;
-<<<<<<< HEAD
 	left: 0;
 	font-size: 75pt;
 	letter-spacing: 50px;
-=======
 	left: 20;
 	font-size: 75pt;
 	letter-spacing: 70px;
->>>>>>> origin/gh-pages
 	animation-name: color_change;
 	animation-duration: 1.5s;
 	animation-delay: 2s;
@@ -103,11 +97,8 @@ a:hover {
 	font-size: 75pt;
 	letter-spacing: 50px;
 	animation-name: color_change;
-<<<<<<< HEAD
 	animation-duration:1.5s;
-=======
 	animation-duration:1.8s;
->>>>>>> origin/gh-pages
 	animation-delay: 1s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
@@ -124,8 +115,6 @@ a:hover {
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-<<<<<<< HEAD
-=======
 }
 
 #box5 {
@@ -216,5 +205,4 @@ a:hover {
 	animation-delay: 1.8s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
->>>>>>> origin/gh-pages
 }
